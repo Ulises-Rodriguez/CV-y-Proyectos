@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(217, 219, 221);
+}
+
+h1{
+    text-align: center;
+    text-shadow: -2px 3px 6px rgba(150, 150, 150, 0.83);
+}
+
+.cv-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: auto 10px;
+    padding: 15px;
+    background-color: #48e;
+    height: fit-content;
+    border: #000 1px solid;
+    border-radius: 20px;
+}
+
+/* FOTO */
+
+.foto-container{
+    margin: 10px;
+    padding: 6px;
+    border: solid #000 2px;
+    background-color: #f00;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.foto-container__foto--1{
+    width: 500px;
+    height: 500px;
+}
+
+/* PERFIL */
+
+.perfil-conatiner{
+    background-color: #0f0;
+    width: 500px;
+}
+
+h2{
+    padding: 5px;
+}
+
+.perfil-info{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+p, b{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* INFO CONTAINER */
+
+.info-container{
+    background-color: #0ff;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    border: solid #000 2px;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+}
+
+/* INFO */
+
+ul{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.ul-info__li{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.form-indi{
+    margin-top: 10px;
+}
+
+.metas{
+    margin-top: 10px;
+}
+
+.form-ac{
+    margin-top: 10px;
+}
+
+/* SENSEI */
+
+.sensei{
+    font-family: sans-serif;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+/* MOSTRAR PERSONA */
+
+.mostrar-persona{
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #f48;
+    border: solid #000 2px;
+}
+
+/* ALGUNOS PROYECTOS O COMENTARIOS */
+
+.algunos-proyectos{
+    background-color: rgb(238, 207, 68);
+    margin: 10px;
+    padding: 5px;
+}
+
+.lista-proyectos li{
+    display: inline-block;
+}
+
+
+/* PARTE ADAPTADA PARA MOVIL */
+
+@media only screen and (max-width: 1190px){
+    /* contenedor cv */
+    .cv-container{
+        display: block;
+        width: 100%;
+        background-color: #48e;
+        border: #000 1px solid;
+        border-radius: 20px;
+    }
+    /* conteneor foto */
+    .foto-container{
+        display: block;
+        width: 100%;
+        margin: 10px;
+        padding: 6px;
+        border: solid #000 2px;
+        background-color: #f00;
+    }
+    /* foto */
+    .foto-container__foto--1{
+        width: 100%;
+    }
+    /* perfil conteiner */
+    .perfil-conatiner{
+        display: block;
+        background-color: #0f0;
+        width: 100%;
+    }
+    /* info conteiner */
+    .info-container{
+        display: block;
+        background-color: #0ff;
+        width: 100%;
+        margin: 10px 10px 0 10px;
+        padding: 5px;
+        border: solid #000 2px;
+    }
+    /* mostrar persona */
+    .mostrar-persona{
+        display: block;
+        width: 100%;
+        margin: 0 10px;
+        padding: 5px;
+        background-color: #f48;
+        border: solid #000 2px;
+    }
+    /* proyectos */
+    .algunos-proyectos{
+        display: block;
+        background-color: rgb(238, 207, 68);
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}

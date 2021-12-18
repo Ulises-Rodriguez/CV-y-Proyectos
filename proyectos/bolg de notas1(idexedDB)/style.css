@@ -1,0 +1,29 @@
+#añadir-notas{
+    background-color: #f00;
+    text-align: center;
+    padding: 5px;
+}
+
+.input-notas, button{
+    padding: 5px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#notas{
+    text-align: center;
+    padding: 5px;
+}
+
+.nota{
+    background-color: #0f0;
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, 350px);
+    border: solid #000 2px;
+    margin-top: 1px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: flex-end;
+}

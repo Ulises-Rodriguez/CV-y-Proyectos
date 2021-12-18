@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego con contador</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Piedra, Papel, Tijera (con contador de victorias y derrotas): </h1>
+        <div id="game-container">
+            <div id="counter-conatiner-user">
+                <p>Victorias del usuario:</p><div id="user-victory"><p id="user-counter">0</p></div>
+            </div>
+            <div id="counter-conatiner-pc">
+                <p>Victorias del PC:</p><div id="pc-victory"><p id="pc-counter">0</p></div>
+            </div>
+            <div id="user-choice">
+                <button value="1" id="piedraUser"><img src="piedra.png"></button>
+                <button value="2" id="papelUser"><img src="papel.png"></button>
+                <button value="3" id="tijeraUser"><img src="tijeraDER.jpeg"></button>
+            </div>
+            <div id="pc-choice">
+                <button value="1" id="piedraPC"><img src="piedra.png"></button>
+                <button value="2" id="papelPC"><img src="papel.png"></button>
+                <button value="3" id="tijeraPC"><img src="tijeraIZQ.png"></button>
+            </div>
+            <div id="new-game">
+                <button id="againButton">Nuevo juego</button>
+            </div>
+        </div>
+        <script src="codigo.js"></script>
+    </body>
+</html>

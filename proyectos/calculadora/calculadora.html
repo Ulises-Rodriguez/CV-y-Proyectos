@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculadora Simple:</h1>
+        <p>Comentario: Esta es un calculadora q realiza operaciones simples (+, -, *, /, x^y, √), mas adelante pienso ir argegando operaciones mas complejas</p>
+        <div id="calculadora">
+            <div id="pantalla-container">
+                <!-- <input type="text" value="" id="pantalla" placeholder="Pantalla"> -->
+                <p id="pantalla">0</p>
+            </div>
+            <div id="botones">
+                <input id="borrar" type="button" value="C" onclick="borrar()">
+                <input id="parentecis" type="button" value="log" onclick="logaritmo()">
+                <input id="raiz" type="button" value="2√" onclick="raizCuadrada()">
+                <input id="potencia" type="button" value="x^y" onclick="seleccionarOperador('x^y')">
+                <input id="siete" type="button" value="7" onclick="numero('7')">
+                <input id="ocho" type="button" value="8" onclick="numero('8')">
+                <input id="nueve" type="button" value="9" onclick="numero('9')">
+                <input id="dividir" type="button" value="/" onclick="seleccionarOperador('/')">
+                <input id="cuatro" type="button" value="4" onclick="numero('4')">
+                <input id="cinco" type="button" value="5" onclick="numero('5')">
+                <input id="seis" type="button" value="6" onclick="numero('6')">
+                <input id="multiplicar" type="button" value="*" onclick="seleccionarOperador('*')">
+                <input id="uno" type="button" value="1" onclick="numero('1')">
+                <input id="dos" type="button" value="2" onclick="numero('2')">
+                <input id="tres" type="button" value="3" onclick="numero('3')">
+                <input id="resta" type="button" value="-" onclick="seleccionarOperador('-')">
+                <input id="cero" type="button" value="0" onclick="numero('0')">
+                <input id="coma" type="button" value="," onclick="numero(',')">
+                <input id="igual" type="button" value="=" onclick="igual()">
+                <input id="suma" type="button" value="+" onclick="seleccionarOperador('+')">
+            </div>
+        </div>
+        <script src="codigo.js"></script>
+    </body>
+</html>

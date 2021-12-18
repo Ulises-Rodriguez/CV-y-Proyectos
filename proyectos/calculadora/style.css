@@ -1,0 +1,36 @@
+#calculadora{
+    background-color: rgb(165, 164, 164);
+    width: 1000px;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+#pantalla-container{
+    display: flex;
+    background-color: #fff;
+    height: fit-content;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: solid #000 2px;
+}
+
+#pantalla{
+    padding: 5px;
+    font-size: x-large;
+    font-weight: 900;
+    flex-grow: 1;
+    margin: auto;
+    border: none;
+    height: 27px;
+}
+
+#botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 50px);
+}
+
+#coma{
+    font-weight: 900;
+}

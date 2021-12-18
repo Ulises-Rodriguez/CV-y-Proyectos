@@ -1,0 +1,38 @@
+#nueva-nota{
+    background-color: #f00;
+    text-align: center;
+    padding: 5px;
+}
+
+.intrucciones{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button{
+    padding: 5px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#notas{
+    text-align: center;
+    padding: 5px;
+}
+
+.nota{
+    background-color: #0f0;
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, 350px);
+    border: solid #000 2px;
+    margin-top: 1px;
+}
+
+h2{
+    border: 2px solid #fff;
+}
+
+.opciones{
+    display: flex;
+    justify-content: flex-end;
+}

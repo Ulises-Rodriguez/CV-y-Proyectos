@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>reloj, cronometro, etc</title>
+    </head>
+    <body>
+        <p>Comentario: En el cuadrado se pueden observar un reloj y un calendario q se van actualizando.
+            El diseño del calendario como se ve va indicando el año, mes, dia y fecha q nos encontramos<br> 
+            
+            OBSERVACION: el calendario no se comporta tal cual como uno normal, osea poniendo un ejemplo: si la fecha fuera Diciembre 1, en el calendario normal el dia 1 estaria debajo del dia miercoles, mientras q en el mio se encuentra debajo del dia lunes.
+            Debido a q se me complico para hacer q las fechas quedaran debajo del dia q correspondia (en parte xq los meses no tiene todos las misma cantidad de dias) por esto decidi cambiar el color del dia y fecha en el q se encuentra.
+        </p>
+        <div id="container">
+            <div id="reloj-container">
+                <div class="hora"></div>
+                <div class="minutos"></div>
+                <div class="segundos"></div>
+            </div>
+            <div id="calendario-container">
+                <div id="año-mes-container">
+                    <div id="mes"></div>
+                    <div id="año"></div>
+                </div>
+                <div id="dia-container">
+                    <div class="dia" id="lunes">Lunes</div>
+                    <div class="dia" id="martes">Martes</div>
+                    <div class="dia" id="miercoles">Miercoles</div>
+                    <div class="dia" id="jueves">Jueves</div>
+                    <div class="dia" id="viernes">Viernes</div>
+                    <div class="dia" id="sabado">Sabado</div>
+                    <div class="dia" id="domingo">Domingo</div>
+                </div>
+                <div id="fecha-container"></div>
+            </div>
+        </div>
+        <script src="codigo.js"></script>
+    </body>
+</html>
