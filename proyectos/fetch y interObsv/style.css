@@ -1,0 +1,108 @@
+#all-container{
+    background-color: #ddd;
+}
+
+#create-conatiner{
+    background-color: #f00;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+#text-container{
+    /* background-color: #f0f; */
+    margin: 5px;
+    padding: 2px;
+    border-bottom: 2px solid #000;
+}
+
+.div-text{
+    margin: 0;
+}
+
+.text-data{
+    font-size: 20px;
+    width: 99%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#button-container{
+    /* background-color: #f0f; */
+    margin: 5px;
+    padding: 2px;
+}
+
+.button-crear{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.button-borrar-crear{
+    border-radius: 20px;
+    width: 200px;
+}
+
+#publication-container{
+    /* border: solid #000 2px; */
+    margin: 5px;
+    padding: 2px;
+}
+
+.publication{
+    background-color: #00f;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.user-container{
+    padding: 3px;
+}
+
+.user{
+    background-color: rgb(188, 184, 250);
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.commnet-publication-container{
+    display: flex;
+}
+
+.text-container{
+    margin: 0px 5px 5px 5px;
+    /* padding: 2px; */
+}
+
+.text{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text-publication{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    flex-grow: 4;
+    font-size: 12px;
+}
+
+.text-publication-button{
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20px;
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.no-more{
+    margin-top: 15px;
+}
