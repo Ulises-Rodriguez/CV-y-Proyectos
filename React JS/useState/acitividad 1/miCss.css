@@ -1,0 +1,21 @@
+button{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.contenedorInfo{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.rojo{
+    color: #f00;
+    font-size: 30px;
+}
+
+.verde{
+    color: #0f0;
+    font-size: 30px;
+}

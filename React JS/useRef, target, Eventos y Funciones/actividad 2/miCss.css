@@ -1,0 +1,46 @@
+img{
+    width: 400px;
+}
+
+.container{
+    background-color: rgb(189, 186, 184);
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 1;
+}
+
+.reySisebuto{
+    margin: 10px;
+    border: solid #000 2px;
+    text-align: center;
+    background-color: rgb(240, 226, 107);
+}
+
+.reyLeogivildo{
+    margin: 10px;
+    border: solid #000 2px;
+    text-align: center;
+    background-color: rgb(240, 226, 107);
+}
+
+.reyAtanagildo{
+    margin: 10px;
+    border: solid #000 2px;
+    text-align: center;
+    background-color: rgb(240, 226, 107);
+}
+
+.reySisebuto__nombre{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reyLeogivildo__nombre{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reyAtanagildo__nombre{
+    font-size: 20px;
+    font-weight: 700;
+}

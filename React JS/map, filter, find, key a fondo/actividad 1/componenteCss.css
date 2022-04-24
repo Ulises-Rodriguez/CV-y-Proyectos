@@ -1,0 +1,13 @@
+.reyConatiner{
+    border: solid 1px #000;
+    flex-basis: 200px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.reyNombre{
+    color: #f00;
+    width: 200px;
+}
