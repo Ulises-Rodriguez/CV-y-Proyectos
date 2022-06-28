@@ -1,0 +1,6 @@
+https://app.netlify.com/sites/elegant-raindrop-610c4d/overview
+
+seguir los pasos que te indica la pagina
+
+a la hora de seleccionar la carpeta es necessario hacer antes un npm run build
+luego arrastras o seleccionas esa carpeta y listo

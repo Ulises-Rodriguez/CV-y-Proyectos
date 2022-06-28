@@ -1,0 +1,34 @@
+{
+  "santos": [
+    {
+      "id": 1,
+      "name": "Seiya",
+      "constelacion": "Pegaso"
+    },
+    {
+      "id": 2,
+      "name": "Shiryu",
+      "constelacion": "Dragon"
+    },
+    {
+      "id": 3,
+      "name": "Hyoga",
+      "constelacion": "Cisne"
+    },
+    {
+      "id": 4,
+      "name": "Shun",
+      "constelacion": "Andromeda"
+    },
+    {
+      "id": 5,
+      "name": "Ikki",
+      "constelacion": "Fenix"
+    },
+    {
+      "name": "Mrmishu2",
+      "constelacion": "Gato123",
+      "id": 1652098566104
+    }
+  ]
+}

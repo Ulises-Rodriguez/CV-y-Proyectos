@@ -1,0 +1,5 @@
+https://www.npmjs.com/package/cra-template-pwa (pagina de los templates)
+
+seguir las intrucciones de la pagina a la hora de hacer un nuevo proyecto
+
+una ves hecho eso trabajar con normalidad y luego cuando termines haces npm run build
