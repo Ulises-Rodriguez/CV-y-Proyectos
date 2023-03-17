@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/estilos.css" rel="stylesheet" />
+    <title>Restaurante 'Los Godos'</title>
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Escoge tu menu</h1>
+    </div>
+    <section class="menuContainer">
+      <div class="comidas"></div>
+    </section>
+    <div class="infoContainer">
+      <input type="number" class="ponerDinero" placeholder="Insertar la cantidad de dinero">
+      <div class="presupuesto">Presupuesto:</div>
+      <div class="dinero"></div>
+      <div class="infoProducto"></div>
+    </div>
+    <section class="menuElegidoContainer">
+      <div class="menuElegido"></div>
+    </section>
+    <section class="aPagarContainer">
+      <div class="logo">
+        <img src="./img/logo.webp" alt="">
+      </div>
+      <div class="menuElegidoInfo"></div>
+      <div class="cuenta">
+        <strong>A pagar: $</strong><strong class="total">0</strong>
+      </div>
+    </section>
+    <script src="js/datos.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

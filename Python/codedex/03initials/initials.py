@@ -1,0 +1,7 @@
+print("U        U", "RRRRRRR")
+print("U        U", "R     R")
+print("U        U", "R     R")
+print("U        U", "RRRRRRR")
+print("U        U", "R R")
+print("U        U", "R   R")
+print("UUUUUUUUUU", "R     R")

@@ -1,0 +1,120 @@
+/* Pregunta Component */
+.pregunta{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Palabra Component */
+.palabraContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    justify-content: center;
+}
+
+.linea {
+    width: 20px;
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 3px solid #000;
+}
+
+/* Imgagen Component */
+
+.ImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 230px;
+}
+
+img{
+    width: 200px;
+    height: 100%;
+    margin: auto;
+}
+
+/* Letras Component */
+.btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnLetra{
+    margin: 5px;
+    border: dashed 2px #d0cccc;
+    width: 57px;
+    padding: 5px;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .pregunta {
+        font-size: 30px;
+    }
+
+    .linea{
+        font-size: 30px;
+    }
+
+    .btnLetra {
+        width: 60px;
+        padding: 5px;
+    }
+
+    .ImgContainer {
+        margin-top: 30px;
+        height: 290px;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .pregunta {
+        font-size: 30px;
+    }
+
+    .btnLetra {
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .linea{
+        font-size: 40px;
+    }
+
+    .btnLetra {
+        width: 70px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .ImgContainer {
+        margin-top: 30px;
+        height: 310px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .linea{
+        flex-grow: 0.1;
+        font-size: 60px;
+    }
+
+    .ImgContainer{
+        height: 350px;
+    }
+}

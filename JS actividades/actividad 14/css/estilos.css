@@ -1,0 +1,73 @@
+h1{
+    margin: 10px;
+    font-size: 60px;
+}
+
+.comidas{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+    border: solid 2px #cecbcb;
+    border-radius: 10px;
+}
+
+img{
+    width: 290px;
+    height: 150px;
+    margin: 5px 5px;
+    border: solid 2px #000;
+}
+
+.infoContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 10px;
+}
+
+.presupuesto,.dinero,.infoProductos{
+    font-size: 40px;
+}
+
+.dinero{
+    margin-left: 5px;
+}
+
+.infoProducto{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.menuElegidoContainer{
+    border: 2px solid #cecbcb;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    visibility: hidden;
+}
+
+.menuElegido{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.aPagarContainer{
+    border: solid 2px #cecbcb;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.comidaInfo{
+    text-align: center;
+}
+
+.cuenta{
+    text-align: center;
+    font-size: 20px;
+    visibility: hidden;
+}
+

@@ -1,0 +1,16 @@
+.botonesContainer{
+    display: flex;
+}
+
+button{
+    background-color: #48e;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.texto{
+    font-size: 200px;
+    text-align: center;
+}

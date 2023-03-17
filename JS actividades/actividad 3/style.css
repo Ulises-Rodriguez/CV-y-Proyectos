@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+}
+
+.inputNombre{
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.textoContainer{
+    font-size: 40px;
+    text-align: center;
+    color: #48e;
+    padding: 5px;
+    margin: 10px;
+}
