@@ -1,0 +1,22 @@
+un modulo es un bloque de codigo reutilizable y encapsulado 
+q permite organizar y separar funcionalidad de nuestras aplicaciones en archivos o unidades mas pequeñas y manejables
+
+entonces en ves de tener todo el codigo en un solo archivo q se te puede ir a 1000 lineas de codigo, lo q haces es tener muchos archivos mas pequeños (del codigo de 1000 lineas), de esta manera esta todo mas organizado, separado, y es mas facil para modificar o arreglar algun problema (osea mas facil manejar y encontrar los bugs)
+
+en Node existen 2 tipos de modulos:
+    _incorporados (nativos de Node) --> https://nodejs.org/dist/latest-v18.x/docs/api/ (fijate q si entras a alguno te muestra los metodos de ese modulo) (si esta sin parentesis significa q es un atributo del modulo)
+
+    ejem: 
+    seria el modulo fs (file system) q usamos en la carpeta 01 y el metodo seria readFile()
+
+    _perzonalizados (tenemos 2 tipos):
+        _creados por nosotros
+        _de terceras personas (modulos de otras personas) --> para este vamos a tener q usar npm (gestor de paquetes) para instalarlos
+
+
+hay 2 tipos de sistemas de modulos en Node:
+    _como en la carpeta 01 con el required("nombre del modulo"); --> esta seria la version JS
+    _como en la docs de Node (q seria igual ECMAScript modulos) --> import {elementos destructurados} from "nombre modulo"
+
+    ejem:
+    import {readFile} from "fs"; --> acordate q de esta manera evitas importar todo el modulo y solo traes lo q te haga falta

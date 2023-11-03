@@ -1,0 +1,15 @@
+*********************************************************************************************************************
+
+el blocking y no blocking es la relacion a como Node JS va a ejecutar las operaciones de entradas y salida
+
+operacion de entrada y salida --> (escritura y lecctura de archvios), (solicitudes htpp), (conexiones de red), (consultas a bases de datos), (seria toda operacion q espera a q algo sucesa)
+
+
+el modo bloqueante o sincrono --> va a esperar a q la tarea numero 1 se termina para poder pasar 2, si queres una 3 tarea se ejecute esta tiene q esperar a la tarea 2 termine
+
+el modo no bloqueante o asincrono --> lo opuesto a la sincrono, imaginemos q la tarea 3 tiene q hacer una peticion a una API esta pasa a una pila de consultas en espera de Node (seria como q se ejecuta en segundo plano) y mientras tanto se ejecutan las otras tareas 4,5,6,...
+
+la ventaja de asincrono es q es mas eficiente y rapido
+
+
+*********************************************************************************************************************

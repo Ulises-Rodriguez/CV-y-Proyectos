@@ -1,0 +1,17 @@
+Los datos son: 
+
+Nombre: Tino
+Apellido: Machichita
+-------------
+Nombre: Juanchis
+Apellido: ElMagicina
+-------------
+Nombre: Martincho
+Apellido: Lenox
+-------------
+Nombre: Teitun
+Apellido: Donger
+-------------
+Nombre: ElPampa
+Apellido: ScoutMaster
+-------------

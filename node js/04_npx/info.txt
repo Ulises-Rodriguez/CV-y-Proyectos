@@ -1,0 +1,7 @@
+NPX:
+    nos permite ejecutar packages de NODE q esten instalados local o globalmente en tu proyecto
+    Está diseñada para facilitar la ejecución de herramientas de línea de comandos que se distribuyen como paquetes, sin tener que instalarlos globalmente.
+
+    En resumen, npx se utiliza para ejecutar paquetes, mientras que npm se utiliza para instalar, actualizar y gestionar paquetes.
+
+    npx te permite usar packages sin la necesidad de estarlos instalando

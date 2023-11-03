@@ -1,0 +1,106 @@
+https://www.npmjs.com/
+
+npm nos va a ser util para intalar los modulos externos a node (de terceros)
+
+tambien hay otras opciones a npm:
+
+yarn: https://yarnpkg.com/
+
+pnpM : https://pnpm.io/es/
+
+
+NPM: 
+https://docs.npmjs.com/ --> docs
+https://docs.npmjs.com/cli/v9/commands --> comandos
+
+
+1_para inicilizar un proyecto en node --> npm init (si le damos asi nomas nos va a ir preguntando paso a paso datos sobre el package.json)
+(si le das enter como loco va a poner nombres y valores por defecto)
+
+con npm help init --> te muestra una docs 
+
+
+para descargar dependecias (packages) --> npm install nombre_del_package
+
+
+2_otra forma --> npm init -y (-y es el flag q te permite en este caso crear una estructura package.json por defecto y sin hacer las preguntas)
+
+
+tanto la forma 1 o 2 luego dentro del package.json podes editar las calve-valor a mano
+
+
+DATO: si estas haciendo tu propia libreria o framework o el mismo package.json tenes q ponerles una version
+https://semver.org/lang/es/ --> aca te explica como es el tema de los numeros de la version
+
+1_La versión MAYOR cuando realizas un cambio incompatible en el API,
+2_La versión MENOR cuando añades funcionalidad compatible con versiones anteriores, y
+3_La versión PARCHE cuando reparas errores compatibles con versiones anteriores.
+
+2.0.0 --> mayor.menor.parche
+
+
+Instalando packages:
+    1_npm install package
+    2_npm install package@3.2.4 --> con una version en particular
+    3_npm i package --> short hand
+
+Update package:
+    1_npm update package
+
+Desintalando packages:
+    1_npm unistall package
+    2_npm unistall package@4.2.5
+    3_npm un package
+
+
+ejem:
+    npm i responsimple --> fijate en el package.json se te agrego dependecias en el cual esta el responsimple
+                       --> tambien se creo una carpeta node_modules
+
+    npm i react@18.1.0 --> con esto descargas la version del package q vos quieras
+
+    tambien podes intalar varios packages:
+        npm i react responsimple etc --> los separas con un espacio
+
+    npm un responsimple --> con esto desintalas --> fijate q en el package.json tambien se borra
+
+    npm update react --> actualizamos a la version actual --> de nuevo en package.json se actualiza
+    npm update react@18.2.0 --> actualizamos a la version q queramos
+
+
+DATO: si un package tiene mas dependecias (osea ese package usa otros packages) se te van a instalar tambien
+
+DATO: puede pasar q como en el caso de react tenga su propio package.json, tene cuidado xq en tu package.json capaz no se actualizan las version y tengas q cambiarlo a mano
+
+
+NODE MODULES:
+    es la carpeta q crea node para ir alamacenando todas las dependecias de terceros 
+
+    la carpeta .bin estan archivos ejecutables para la terminal de comandos, tambien estan todos los archivos q lleven una ejecucion de alguna tarea
+
+    vamos a instalar serve --> (q seria como la extencion live serve)
+    (en este caso no lo instalamos de forma global, para tenerlo de forma global seria npm i --global serve)
+
+    (para hacerlo andar si o si tenes q instalarlo de forma global)
+
+    para correrlo --> serve
+
+    recorda q si no sabes q hace una dependecias tenes q ir a la pagina de npm y leer la docs
+
+    la carpeta node_modules no se sube al repo ya q pesa mucho
+
+
+    Ahora en caso de q llegue un nuevo desarrollador al equipo este no teien q ponerse a instalar uno a uno todas las dependecias
+    para eso esta el package.json q una de sus funciones es q todo lo q tenga dentro del objeto dependecias automatico va a instalar todas los packages
+
+    *******************************************************************************************
+    para hacer esto lo unico q tenes q hacer es en la terminal, en la carpeta del proyecto pones 
+        npm i
+
+    cuando hagas esto lo q node hace es revisar en la raiz de la carpeta donde ejecutaste el comando y busca el archivo package.json
+    dentro revisa el objeto dependecias y comienza a instalarlar todas
+    *******************************************************************************************
+
+    DATO: MUCHO CUIDADO CON INSTALAR DEPENDENCIAS COMO LOCO XQ EL DIA DE MAÑANA QUERES CAMBIAR ALGO Y PUEDE PASAR Q ALGUNAS DEPENDENCIAS ESTEN DEPRECAS (OBSOLETAS) Y HAYA PROBLEMAS O ERRORS EN EL PROYECTO
+
+

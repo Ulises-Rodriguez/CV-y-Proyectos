@@ -1,0 +1,15 @@
+1_ nodemon es un package q nos evita el tener q hacer node app.js + ctrl+c + node app.js + ... cada ves q haya un cambio en el codigo se ejecuta devuelta node app.js (como si fuera el liveserver)
+https://www.npmjs.com/package/nodemon
+
+
+para correlo --> nodemon app.js
+pero para hacerlo mas elegante vamos a hacer en el package.json un script personalizado para no tener q estar escribiendo nodemon app.js cada ves 
+
+"scripts": {
+    "dev": "nodemon app.js", --> nodemon para desarrollo --> npm run dev
+    "start": "node app.js" --> dejamos q node se encargue de iniciar --> npm start
+}
+
+entonces ahora podemos hacer npm start
+
+DATO: en caso de crasheo, bucle infinito, etc podes hacer ctrl+s (gurdar) y se vuelve a ejecutar nodemon
