@@ -1,0 +1,286 @@
+/* loading */
+.spinnerContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cargandoTitulo {
+  color: #5c81f1;
+  text-align: center;
+  margin: 10rem 0 5rem 0;
+}
+
+.spinner{
+  width: 3rem;
+  height: 3rem;
+  margin: 5rem 0 10rem 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.navBar,
+.navBarBg {
+  background-color: #50c3e3;
+  justify-content: space-between;
+}
+
+.navBar ul {
+  list-style: none;
+}
+
+.home {
+  margin-right: 20px;
+}
+
+.titulo {
+  font-size: 2rem;
+}
+
+.opcionLink {
+  font-size: 2rem;
+}
+
+/* CARRITO */
+.carritoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carritoImg {
+  width: 50px;
+  height: 50px;
+}
+
+.msgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.ulCarrito li {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 7px;
+}
+
+.ulComprar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.ulComprar li {
+  padding-right: 10px;
+}
+
+/* Comprar opciones */
+.divComprar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divBtnCounterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.divBtnCounterContainer button {
+  font-size: 20px;
+  font-weight: 600;
+  width: 30px;
+  text-align: center;
+}
+
+.divBtnCounterContainer p {
+  margin: 0 4rem;
+  font-weight: 700;
+}
+
+.btnContinaer{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  min-height: 12rem;
+  font-size: 20px;
+  background-color: rgb(28 28 28 / 80%);
+  color: #fff;
+}
+
+.ulFooter {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ulRedes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ulRedes li img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.divContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mediosDePago ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mediosDePago ul li img {
+  width: 38px;
+  height: 25px;
+}
+
+/* cards de productos */
+.divUlCardsContainer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.ulCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgProductos {
+  height: 13rem;
+}
+
+.divTextCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+
+/* link productos */
+.ulLinkProductos {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 3rem;
+}
+
+.linkProductos {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.divLinkInfoContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3.1rem;
+}
+
+.imgLink{
+  width: 18rem;
+  height: 18rem;
+}
+
+
+/* DETALLE PRODUCTO */
+.productoDetalleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloProductoDetalle{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.precioProductoDetalle{
+  color: rgb(201, 38, 38);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.imgProductosDetalle{
+  width: 40rem;
+  height: 30rem;
+}
+
+
+
+/* RESUMEN DE COMPRA */
+.resumenTitulo{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.ulResumenCompra{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;  
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ulProductos{
+  font-size: medium;
+}
+
+.precioTotal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}

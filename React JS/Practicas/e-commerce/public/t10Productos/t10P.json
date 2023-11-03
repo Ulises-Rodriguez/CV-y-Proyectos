@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "super smash bros",
+        "precio": 20.50,
+        "descripcion": "Genreo: Lucha, Croosover, Un Jugador, Multijugador",
+        "url": "https://img.unocero.com/2019/07/rompen-record-smash-bros-64-880x495.jpg",
+        "stock" : 2
+    },
+    {
+        "id": 2,
+        "nombre": "Perfect Dark",
+        "precio": 10.20,
+        "descripcion": "Genero: Disparos en primera persona, Sigilo, Acción",
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Perfect_dark_box.jpg/220px-Perfect_dark_box.jpg",
+        "stock" : 6
+    },
+    {
+        "id": 3,
+        "nombre": "Tekken 3",
+        "precio": 13.55,
+        "descripcion": "Genero: Lucha, Uno o Dos Jugadores",
+        "url": "https://i0.wp.com/www.pixelbandits.org/wp-content/uploads/2022/11/Tekken-3-12.png?resize=800%2C450&ssl=1",
+        "stock" : 7
+    },
+    {
+        "id": 4,
+        "nombre": "Crash Bandicoot",
+        "precio": 16.33,
+        "descripcion": "Genero: Plataformas, Un Jugador",
+        "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png",
+        "stock" : 3
+    },
+    {
+        "id": 5,
+        "nombre": "Tomb Raider II",
+        "precio": 9.99,
+        "descripcion": "Genero: Aventura en tercera persona, Plataformas",
+        "url": "https://alexstombraiderblog.files.wordpress.com/2021/04/1.jpg",
+        "stock" : 2
+    },
+    {
+        "id": 6,
+        "nombre": "Metal Gear Solid",
+        "precio": 14.89,
+        "descripcion": "Genero: Sigilo, Accion, Un Juegador",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08tdWqGuMAiP4EJ-6PZkDyHsbkKPkvW8XaA&usqp=CAU",
+        "stock" : 5
+    },
+    {
+        "id": 7,
+        "nombre": "Final Fantasy VII",
+        "precio": 15,
+        "descripcion": "Genero: Rol, Batalla por turnos, Un Jugador",
+        "url": "https://i.redd.it/a3jhg9kn7ko31.jpg",
+        "stock" : 4
+    },
+    {
+        "id": 8,
+        "nombre": "Super Mario 64",
+        "precio": 14.56,
+        "descripcion": "Genero: Plataformas, Un Jugador",
+        "url": "https://e.rpp-noticias.io/xlarge/2020/07/27/562556_975698.png",
+        "stock" : 3
+    },
+    {
+        "id": 9,
+        "nombre": "Pokemon Fire Red",
+        "precio": 20,
+        "descripcion": "Genero: Aventura, RPG, Un Jugador, Batalla por tunos",
+        "url": "https://m.media-amazon.com/images/I/616r6kvVCIL._AC_UF1000,1000_QL80_.jpg",
+        "stock" : 5
+    },
+    {
+        "id": 10,
+        "nombre": "TLOZ: OFT",
+        "precio": 12.37,
+        "descripcion": "Genero: Accion, Aventura, Un Jugador",
+        "url": "https://media.gq-magazine.co.uk/photos/5d13a88fa56e59087435810d/16:9/w_1280,c_limit/zelda-02-gq-21nov18_b.jpg",
+        "stock" : 5
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Cloud Strife",
+        "precio": 19.99,
+        "descripcion": "Figura de Cloud Strife FF7",
+        "url": "https://i.etsystatic.com/22898397/r/il/48aa97/3278920497/il_fullxfull.3278920497_lppk.jpg",
+        "stock" : 7
+    },
+    {
+        "id": 2,
+        "name": "Yuna",
+        "precio": 29.99,
+        "descripcion": "Figura de Yuna FF10",
+        "url": "https://m.media-amazon.com/images/I/91d8UT7zP7L.jpg",
+        "stock" : 10
+    },
+    {
+        "id": 3,
+        "name": "Lightning",
+        "precio": 39.99,
+        "descripcion": "Figura de Lightning FF13",
+        "url": "https://m.media-amazon.com/images/I/611voO1MHdL.jpg",
+        "stock" : 13
+    },
+    {
+        "id": 4,
+        "name": "Geralt of Rivia",
+        "precio": 49.99,
+        "descripcion": "Figura de Geralt of Rivia The Witcher 3",
+        "url": "https://www.tradeinn.com/f/13778/137789631/dark-horse-figura-geralt-the-witcher-3-wild-hun-25-cm.jpg",
+        "stock" : 3
+    },
+    {
+        "id": 5,
+        "name": "Ciri",
+        "precio": 59.99,
+        "descripcion": "Figura de Ciri The Witcher 3",
+        "url": "https://lafrikileria.com/57617-thickbox_default/figura-ciri-the-witcher-iii-20-cm-dark-house.jpg",
+        "stock" : 3
+    },
+    {
+        "id": 6,
+        "name": "Mario",
+        "precio": 69.99,
+        "descripcion": "Figura de Mario Galaxy",
+        "url": "https://cdn.gameplanet.com/wp-content/uploads/2022/08/27063129/mario-galaxy-fly.jpg",
+        "stock" : 5
+    },
+    {
+        "id": 7,
+        "name": "Link",
+        "precio": 79.99,
+        "descripcion": "Figura de Link The Legend Of Zelda: Breath of The Wild",
+        "url": "https://www.sddistribuciones.com/Portadas/F4F02BOTWLC.jpg",
+        "stock" : 4
+    },
+    {
+        "id": 8,
+        "name": "Master Chief",
+        "precio": 89.99,
+        "descripcion": "Figura de Master Chief Halo Infinite",
+        "url": "https://www.raccoongames.es/img/productos/halo-infinite-figura-master-chief-with-grappleshot/3009247%206.jpeg",
+        "stock" : 6
+    },
+    {
+        "id": 9,
+        "name": "Jhon Shepard",
+        "precio": 99.99,
+        "descripcion": "Figura de Comandante Shepard ME3",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_843744-MLA54081760993_022023-O.webp",
+        "stock" : 4
+    },
+    {
+        "id": 10,
+        "name": "Leon S. Kennedy",
+        "precio": 109.99,
+        "descripcion": "Figura Leon S. Kennedy RE:V",
+        "url": "https://otakuhype.co.uk/wp-content/uploads/2023/02/Resident-Evil-Vendetta-Statue-Leon-S.-Kennedy-29-cm.jpg",
+        "stock" : 7
+    },
+    {
+        "id": 11,
+        "name": "Lara Croft",
+        "precio": 119.99,
+        "descripcion": "Figura Lara Croft Shadow Of The Tomb Raider",
+        "url": "https://m.media-amazon.com/images/I/61p+jkmkQyL._AC_SY450_.jpg",
+        "stock" : 2
+    },
+    {
+        "id": 12,
+        "name": "Crash Bandicoot",
+        "precio": 129.99,
+        "descripcion": "Figura Crash Bandicoot",
+        "url": "https://www.tradeinn.com/f/13953/139538362/first-4-figures-figura-crash-bandicoot-team-racing-nitro-fueled-crash-winner-52-cm.jpg",
+        "stock" : 3
+    }
+]

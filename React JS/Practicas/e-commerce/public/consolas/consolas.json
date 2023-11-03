@@ -1,0 +1,161 @@
+[
+    {
+        "id": "playstation",
+        "consolas": [
+            {
+                "id": 1,
+                "name": "PlayStation 1",
+                "precio": 299.99,
+                "descripcion": "La PlayStation 1 es la primera consola de videojuegos de Sony, que se lanzó en 1994 y compitió con Nintendo 64 y Sega Saturn. Utilizaba discos compactos como soporte de almacenamiento y tenía una amplia biblioteca de juegos.",
+                "url": "https://thegameisland.com/cdn/shop/products/57_6ee06d87-18f0-4e35-8206-531a405268c0_800x.jpg?v=1612803353",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "PlayStation 2",
+                "precio": 149.99,
+                "descripcion": "La PlayStation 2 es la consola de videojuegos de sexta generación de Sony, que cuenta con un potente procesador Emotion Engine, una gran variedad de juegos y una retrocompatibilidad con PlayStation 1.",
+                "url": "https://playmania438.com.ar/wp-content/uploads/2019/06/consola-playstation-slim-ps2-D_NQ_NP_982438-MLA26481910757_122017-F.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "PlayStation 3",
+                "precio": 199.99,
+                "descripcion": "La PlayStation 3 es la consola de videojuegos de tercera generación de Sony, que cuenta con un potente procesador Cell, un lector de discos Blu-ray y una amplia compatibilidad con juegos anteriores.",
+                "url": "https://www.ubuy.com.ar/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9zZW8vUmVzdG9yZWQtU29ueS1QbGF5U3RhdGlvbi0zLVBTMy1TbGltLTMyMEdCLVZpZGVvLUdhbWUtQ29uc29sZS1CbGFjay1Db250cm9sbGVyLXdpdGgtSERNSS1SZWZ1cmJpc2hlZF9kNjhjMzJiMC1kOWQ5LTRmYWMtYmY0ZS03YTM3Y2U0ZjRhY2JfMS5hMzU0OTZmMDM4YTE4NWZkZjBmNjdlYmZiNWQ2ZmY4Yi5qcGVn.jpg",
+                "stock" : 4
+            },
+            {
+                "id": 4,
+                "name": "PlayStation VR",
+                "precio": 199.99,
+                "descripcion": "La PlayStation VR es el dispositivo de realidad virtual de Sony, que se conecta a la PlayStation 4 o a la PlayStation 5 y permite jugar a juegos en primera persona con una sensación de inmersión total.",
+                "url": "https://i.ebayimg.com/images/g/Su8AAOSwmtFhuUAu/s-l1200.webp",
+                "stock" : 7
+            },
+            {
+                "id": 5,
+                "name": "PlayStation 4",
+                "precio": 299.99,
+                "descripcion": "La PlayStation 4 es la consola de videojuegos de octava generación de Sony, que cuenta con un amplio catálogo de juegos exclusivos, un modo multijugador online y la posibilidad de transmitir juegos en vivo a través de Twitch o YouTube.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_865169-MLA54833481393_042023-O.webp",
+                "stock" : 6
+            },
+            {
+                "id": 6,
+                "name": "PlayStation 5",
+                "precio": 499.99,
+                "descripcion": "La PlayStation 5 es la consola de videojuegos de novena generación de Sony, que ofrece una experiencia de juego inmersiva con gráficos impresionantes, velocidad ultrarrápida, audio 3D y un innovador controlador DualSense.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_700033-MLA69689802995_052023-O.webp",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "xbox",
+        "consolas": [
+            {
+                "id": 1,
+                "name": "Xbox",
+                "precio": 299.99,
+                "descripcion": "La primera consola de Microsoft, lanzada en 2001, con un rendimiento de 480p y un catálogo de juegos exclusivos como Halo, Fable y Forza Motorsport.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_671397-MLA71504170436_092023-O.webp",
+                "stock" : 5
+            },
+            {
+                "id": 2,
+                "name": "Xbox 360",
+                "precio": 299.99,
+                "descripcion": "La segunda consola de Microsoft, lanzada en 2005, con un rendimiento de 720p y una amplia variedad de juegos y servicios como Xbox Live, Kinect y Xbox Game Pass.",
+                "url": "https://i.blogs.es/06aa3e/xbox-360-adios-tienda-portada/1366_2000.jpeg",
+                "stock" : 5
+            },
+            {
+                "id": 3,
+                "name": "Xbox One",
+                "precio": 499.99,
+                "descripcion": "La tercera consola de Microsoft, lanzada en 2013, con un rendimiento de 1080p y una integración con Windows 10, Cortana y el asistente virtual Alexa.",
+                "url": "https://www.clarin.com/2014/12/26/HJlh3sUAQx_1256x620.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 4,
+                "name": "Xbox Series X",
+                "precio": 549.99,
+                "descripcion": "La cuarta y más reciente consola de Microsoft, lanzada en 2020, con un rendimiento de 4K y una velocidad de hasta 120 fps, compatible con los juegos de las generaciones anteriores.",
+                "url": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png",
+                "stock" : 7
+            },
+            {
+                "id": 5,
+                "name": "Xbox Series S",
+                "precio": 299.99,
+                "descripcion": "La versión más económica y compacta de la Xbox Series X, lanzada en 2020, con un rendimiento de 1440p y una velocidad de hasta 120 fps, compatible con los juegos de las generaciones anteriores.",
+                "url": "https://www.infobae.com/new-resizer/dWWiRmzkS_lLCD_EY1i0ICU3HFQ=/1440x960/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/7ELAW2IXHNAR7ESA2PIA5TGXRI.png",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "nintendo",
+        "consolas": [
+            {
+                "id": 1,
+                "name": "NES",
+                "precio": 299.99,
+                "descripcion": "La Nintendo Entertainment System es la primera consola doméstica de Nintendo, lanzada en 1983.",
+                "url": "https://m.media-amazon.com/images/I/81s7B+Als-L._SL1500_.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "SNES",
+                "precio": 199.99,
+                "descripcion": "La Super Nintendo Entertainment System es la sucesora de la NES, lanzada en 1990.",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nintendo-Super-Famicom-Set-FL.png/1280px-Nintendo-Super-Famicom-Set-FL.png",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "Nintendo 64",
+                "precio": 199.99,
+                "descripcion": "La primera consola de Nintendo con gráficos en 3D, lanzada en 1996.",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nintendo-64-wController-L.jpg/1200px-Nintendo-64-wController-L.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 4,
+                "name": "GameCube",
+                "precio": 199.99,
+                "descripcion": "La sucesora de la Nintendo 64, lanzada en 2001.",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/GameCube%2Bcontroller.png/800px-GameCube%2Bcontroller.png",
+                "stock" : 2
+            },
+            {
+                "id": 5,
+                "name": "Nintendo Wii U",
+                "precio": 299.99,
+                "descripcion": "La sucesora de la Nintendo Wii, lanzada en 2012.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_734683-MLA53753962770_022023-O.webp",
+                "stock" : 7
+            },
+            {
+                "id": 6,
+                "name": "Nintendo Switch",
+                "precio": 299.99,
+                "descripcion": "Una consola híbrida que se puede jugar en modo portátil o en modo sobremesa, lanzada en 2017.",
+                "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_300/ncom/en_US/switch/system/three-modes-in-one",
+                "stock" : 4
+            },
+            {
+                "id": 7,
+                "name": "Nintendo 3DS",
+                "precio": 249.99,
+                "descripcion": "Una consola portátil con gráficos en 3D, lanzada en 2011.",
+                "url": "https://i.blogs.es/8f2220/3ds/450_1000.webp",
+                "stock" : 4
+            }
+        ]
+    }
+]

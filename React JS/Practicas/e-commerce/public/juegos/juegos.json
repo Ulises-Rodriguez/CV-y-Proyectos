@@ -1,0 +1,618 @@
+[
+    {
+        "id": "playstation-1",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Crash Bandicoot",
+                "precio": 19.99,
+                "descripcion": "Un juego de plataformas en el que controlas a Crash, un marsupial que debe detener los planes del malvado Dr. Neo Cortex.",
+                "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "Final Fantasy VII",
+                "precio": 29.99,
+                "descripcion": "Un juego de rol en el que sigues la historia de Cloud, un ex soldado que se une a un grupo rebelde llamado AVALANCHE para luchar contra la corporación Shinra.",
+                "url": "https://i.etsystatic.com/7131434/r/il/f9b9e9/2410353563/il_fullxfull.2410353563_6sw2.jpg",
+                "stock" : 4
+            },
+            {
+                "id": 3,
+                "name": "Metal Gear Solid",
+                "precio": 24.99,
+                "descripcion": "Un juego de acción y sigilo en el que encarnas a Solid Snake, un agente especial que debe infiltrarse en una base militar para evitar una amenaza nuclear.",
+                "url": "https://multitap.com.ar/wp-content/uploads/2020/09/75.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 4,
+                "name": "Resident Evil",
+                "precio": 19.99,
+                "descripcion": "Un juego de terror y supervivencia en el que exploras una mansión infestada de zombis y otras criaturas mutantes.",
+                "url": "https://i.3djuegos.com/juegos/3869/resident_evil/fotos/ficha/resident_evil-1692489.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 5,
+                "name": "Gran Turismo",
+                "precio": 29.99,
+                "descripcion": "Un juego de carreras y simulación en el que puedes conducir más de 140 vehículos diferentes en diversos circuitos y modos de juego.",
+                "url": "https://c8.alamy.com/compes/2c4rfgf/gran-turismo-gt-sony-playstation-1-ps1-psx-solo-para-uso-editorial-2c4rfgf.jpg",
+                "stock" : 7
+            }
+        ]
+    },
+    {
+        "id": "playstation-2",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "God of War",
+                "precio": 29.99,
+                "descripcion": "God of War es un juego de acción y aventura en tercera persona basado en la mitología griega.",
+                "url": "https://i.3djuegos.com/juegos/3569/god_of_war/fotos/ficha/god_of_war-2736533.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "SOTC",
+                "precio": 19.99,
+                "descripcion": "Shadow of the Colossus es un juego de acción y aventura en el que el jugador debe derrotar a gigantescos colosos para salvar a una joven.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_602905-MLA50824568916_072022-O.webp",
+                "stock" : 8
+            },
+            {
+                "id": 3,
+                "name": "GAT: San Aandreas",
+                "precio": 24.99,
+                "descripcion": "Grand Theft Auto: San Andreas es un juego de mundo abierto en el que el jugador asume el rol de un pandillero en la ficticia ciudad de Los Santos.",
+                "url": "https://media.vandal.net/m/3150/200472123346_1.jpg",
+                "stock" : 5
+            },
+            {
+                "id": 4,
+                "name": "MGS 3: Snake Eater",
+                "precio": 14.99,
+                "descripcion": "Metal Gear Solid 3: Snake Eater es un juego de sigilo y acción en el que el jugador controla a Naked Snake en una misión durante la Guerra Fría.",
+                "url": "https://www.gamespot.com/a/uploads/original/gamespot/images/2004/reviews/621813-914828_20041116_004.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 5,
+                "name": "Final Fantasy X",
+                "precio": 29.99,
+                "descripcion": "Final Fantasy X es un juego de rol en el que el jugador controla a Tidus en su viaje para derrotar a Sinh y salvar el mundo de Spira.",
+                "url": "https://media.vandal.net/m/67/final-fantasy-x-201961314145961_1.jpg",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "playstation-3",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "The Last of Us",
+                "precio": 39.99,
+                "descripcion": "The Last of Us es un juego de acción y supervivencia en un mundo postapocalíptico donde los jugadores deben proteger a una niña mientras luchan contra infectados y otros sobrevivientes.",
+                "url": "https://acdn.mitiendanube.com/stores/001/609/427/products/the-last-ps3-nube1-1445e8d31212776eaf16162099294915-480-0.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 2,
+                "name": "Uncharted 2: AT",
+                "precio": 19.99,
+                "descripcion": "Uncharted 2: Among Thieves es un juego de acción y aventura en tercera persona donde el jugador asume el papel del cazador de tesoros Nathan Drake en su búsqueda de una legendaria ciudad perdida.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_639401-MLA48952075604_012022-O.webp",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "RDR",
+                "precio": 29.99,
+                "descripcion": "Red Dead Redemption es un juego de mundo abierto ambientado en el Salvaje Oeste, donde el jugador controla a John Marston en su búsqueda de venganza.",
+                "url": "https://media.vandal.net/m/10107/2010121721954_1.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 4,
+                "name": "Bioshock",
+                "precio": 14.99,
+                "descripcion": "Bioshock es un juego de disparos en primera persona con elementos de RPG, ambientado en una ciudad submarina llamada Rapture.",
+                "url": "https://m.media-amazon.com/images/I/519JsCR85aL._AC_UF1000,1000_QL80_.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 5,
+                "name": "Mass Effect 2",
+                "precio": 24.99,
+                "descripcion": "Mass Effect 2 es un juego de rol y acción espacial donde el jugador asume el papel del Comandante Shepard en su misión para salvar la galaxia de una amenaza alienígena.",
+                "url": "https://acdn.mitiendanube.com/stores/910/199/products/mass-effect-21-3485248970fa76505b15543880965920-640-0.jpg",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "playstation-vr",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "HCOTM",
+                "precio": 39.99,
+                "descripcion": "Horizon Call of the Mountain es una nueva aventura épica en la saga Horizon ambientada en un mundo post-apocalíptico. Únete a una nueva cazadora de máquinas Aloy en su viaje para descubrir los secretos de una tierra antigua.",
+                "url": "https://media.vandal.net/m/112647/horizon-call-of-the-mountain-20231271792225_1.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 2,
+                "name": "Resident Evil Village",
+                "precio": 39.99,
+                "descripcion": "Una experiencia de terror inmersiva que te lleva al pueblo maldito de Resident Evil Village. Vive la historia de Ethan Winters y su hija Mia mientras luchan por sobrevivir a los horrores que les acechan.",
+                "url": "https://img.asmedia.epimg.net/resizer/Zbeqld-JeaGVGUfPCNMiGysAeK4=/1472x1104/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FV4BWSB4LZJFXBDWIOTOVLTBLU.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "Among Us VR",
+                "precio": 19.99,
+                "descripcion": "La experiencia de Among Us definitiva en realidad virtual. Juega con tus amigos en una nave espacial en miniatura mientras intentas completar tus tareas o descubrir al impostor.",
+                "url": "https://i.ytimg.com/vi/Lb4PsiNhvlc/maxresdefault.jpg",
+                "stock" : 5
+            },
+            {
+                "id": 4,
+                "name": "Moss I y II",
+                "precio": 29.99,
+                "descripcion": "Una aventura de plataformas en tercera persona que te lleva a un mundo mágico lleno de criaturas adorables. Únete a Quill, una pequeña ratona, en su viaje para salvar a su abuelo.",
+                "url": "https://storage.googleapis.com/stateless-www-vrplayer-fr/2019/05/96cf5ba8-moss-jardin-twilight-playstation-vr-vr4player-000-1140x641.jpg",
+                "stock" : 10
+            },
+            {
+                "id": 5,
+                "name": "Gran Turismo 7",
+                "precio": 79.99,
+                "descripcion": "La experiencia de carreras definitiva en realidad virtual. Conduce los coches más rápidos del mundo en pistas icónicas de todo el mundo.",
+                "url": "https://i.blogs.es/1b5b0e/gran-turismo-7s-next-update-lands-21st-february-with-psvr2-support/1366_2000.jpeg",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "playstation-4",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "The Last of Us Part II",
+                "precio": 59.99,
+                "descripcion": "The Last of Us Part II es un juego de acción y aventura postapocalíptico en tercera persona.",
+                "url": "https://dixgamer.com/wp-content/uploads/2020/03/the-last-of-us-part-ii-1.jpg",
+                "stock" : 14
+            },
+            {
+                "id": 2,
+                "name": "God of War: Ragnarok",
+                "precio": 39.99,
+                "descripcion": "God of War: Ragnarok es un juego de acción y aventura basado en la mitología nórdica.",
+                "url": "https://acdn.mitiendanube.com/stores/001/537/249/products/god-of-war-ragnarok-watermark-screenshot-12-en-08sep211-03bebb0f755f7f42ad16683124966267-640-0.png",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "Marvel's Spider-Man",
+                "precio": 49.99,
+                "descripcion": "Marvel's Spider-Man es un juego de acción y aventura protagonizado por el famoso superhéroe Spider-Man.",
+                "url": "https://d3ugyf2ht6aenh.cloudfront.net/stores/353/484/products/goty1-849552bb467a55883715867323516523-640-0.jpg",
+                "stock" : 8
+            },
+            {
+                "id": 4,
+                "name": "Red Dead Redemption 2",
+                "precio": 59.99,
+                "descripcion": "Red Dead Redemption 2 es un juego de mundo abierto ambientado en el salvaje oeste.",
+                "url": "https://i.blogs.es/4e77f6/trucosreddead2/1366_2000.jpg",
+                "stock" : 6
+            },
+            {
+                "id": 5,
+                "name": "Uncharted 4: A Thief's End",
+                "precio": 19.99,
+                "descripcion": "Uncharted 4: A Thief's End es un juego de acción y aventura en tercera persona con temática de cazatesoros.",
+                "url": "https://acdn.mitiendanube.com/stores/361/025/products/uncharted-4-ps41-a543e9b9af4995eee415124453255122-640-0.jpg",
+                "stock" : 1
+            }
+        ]
+    },
+    {
+        "id": "playstation-5",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "GOW: Ragnarok",
+                "precio": 79.99,
+                "descripcion": "La esperada continuación de la saga God of War, que continúa la historia de Kratos y Atreus en su viaje por los Nueve Reinos.",
+                "url": "https://i.ytimg.com/vi/sMDgMqP_4C8/maxresdefault.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 2,
+                "name": "Gran Turismo 7",
+                "precio": 79.99,
+                "descripcion": "El simulador de carreras definitivo, que ofrece una experiencia de conducción realista y envolvente.",
+                "url": "https://cloudfront-us-east-1.images.arcpublishing.com/artear/EGAE23OINBCBVO6XOJ4BALT4PA.jpg",
+                "stock" : 10
+            },
+            {
+                "id": 3,
+                "name": "HFW",
+                "precio": 79.99,
+                "descripcion": "Horizon Forbidden West es la secuela del aclamado Horizon Zero Dawn, que lleva a Aloy a un nuevo y peligroso mundo para descubrir los secretos de su pasado.",
+                "url": "https://areajugones.sport.es/wp-content/uploads/2022/02/horizon-forbidden-west-slitherfang-328904.jpeg",
+                "stock" : 5
+            },
+            {
+                "id": 4,
+                "name": "Spider-Man 2",
+                "precio": 79.99,
+                "descripcion": "El esperado regreso de Spider-Man, que presenta a Miles Morales y Peter Parker uniendo fuerzas para enfrentarse a un nuevo villano.",
+                "url": "https://www.mundodeportivo.com/alfabeta/hero/2023/07/92326709292d22dcdbae772f263ce62be38dc6bb-scaled-1.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+                "stock" : 6
+            },
+            {
+                "id": 5,
+                "name": "The Last of Us Part I",
+                "precio": 79.99,
+                "descripcion": "El remake del aclamado juego de acción y supervivencia, que presenta gráficos mejorados y nuevas mecánicas de juego.",
+                "url": "https://culturageek.com.ar/wp-content/uploads/2022/08/960x0.jpg",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "xbox",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "GAT: San Aandreas",
+                "precio": 19.99,
+                "descripcion": " GTA San andreas es un juego de acción y aventura en un mundo abierto ambientado en los años 90, donde podrás explorar tres ciudades y realizar todo tipo de misiones y actividades.",
+                "url": "https://steamuserimages-a.akamaihd.net/ugc/433783265874720792/D0E18AFC98460208934FFE880E4FEB3F6D55B049/",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "PGR 2",
+                "precio": 9.99,
+                "descripcion": "Project Gotham Racing es un juego de carreras que combina la velocidad con el estilo, donde podrás competir con más de 100 coches por las calles de ciudades reales como Barcelona, Chicago o Hong Kong.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7f11kcxj-X00T4A0gaPdxeJKB3kHkl-H0OJpdJmaXVKNgiA5OzvDKG9_Pbb7u5gjmXL4&usqp=CAU",
+                "stock" : 8
+            },
+            {
+                "id": 3,
+                "name": "BT 3",
+                "precio": 14.99,
+                "descripcion": "Burnout Takedown 3 es un juego de carreras que te anima a conducir de forma temeraria, provocando accidentes espectaculares y eliminando a tus rivales de la pista.",
+                "url": "https://m.media-amazon.com/images/I/51S96JC509L.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 4,
+                "name": "Halo 2",
+                "precio": 19.99,
+                "descripcion": "Halo 2 es la secuela del aclamado juego de disparos en primera persona, que continúa la historia del Jefe Maestro y su lucha contra el Covenant, con una campaña épica y un multijugador adictivo.",
+                "url": "https://media.vandal.net/ivandal/12/63/1200x630/12/1230/2004728184119_1.jpg",
+                "stock" : 6
+            },
+            {
+                "id": 5,
+                "name": "Ninja Gaiden",
+                "precio": 14.99,
+                "descripcion": "Ninja Gaiden es un juego de acción y plataformas que te pone en la piel de Ryu Hayabusa, un ninja que debe enfrentarse a un malvado clan que busca revivir a un demonio ancestral.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFdKTrJJUtjuD16w0UReW1J1UDtnc1T0lR51ZyHQMdRNorSgEiGC4_DECpmJJBEkUgAE&usqp=CAU",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "xbox-360",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Grand Theft Auto V",
+                "precio": 19.99,
+                "descripcion": "Grand Theft Auto V es un juego de acción y mundo abierto en el que puedes vivir la vida como quieras.",
+                "url": "https://i.blogs.es/323975/gtav/840_560.jpg",
+                "stock" : 4
+            },
+            {
+                "id": 2,
+                "name": "RDR",
+                "precio": 19.99,
+                "descripcion": "Red Dead Redemption es una épica historia de venganza y redención ambientada en el salvaje oeste americano.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhrovhPTH1RuqEdZNYNnT_yfBMymXZECI9k6P14nItVbovrEeYIfhooFTA4ptN3Z1hH8U&usqp=CAU",
+                "stock" : 2
+            },
+            {
+                "id": 3,
+                "name": "Halo 3",
+                "precio": 9.99,
+                "descripcion": "La conclusión de la trilogía original de Halo, en la que el Jefe Maestro debe detener a los Covenant.",
+                "url": "https://media.vandal.net/m/4440/20081721623_1.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 4,
+                "name": "TES V: Skyrim",
+                "precio": 19.99,
+                "descripcion": "Skyrim es una aventura de rol de mundo abierto ambientada en un mundo lleno de fantasía y peligros.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRces3Gtka_TKc7uvdaylyuQbtr3IU5IPx8PVF4ocsySFJTZ1lRaRhm0Qwqnj58XohyFH8&usqp=CAU",
+                "stock" : 5
+            },
+            {
+                "id": 5,
+                "name": "Mass Effect 2",
+                "precio": 9.99,
+                "descripcion": "La segunda entrega de la saga Mass Effect, en la que Shepard debe reunir a una nueva tripulación para detener a una amenaza intergaláctica.",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_691578-MLA48011601376_102021-O.webp",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "xbox-one",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "RDR 2",
+                "precio": 59.99,
+                "descripcion": "Red Dead Redemption 2 es la precuela del exitoso juego de Rockstar, que te lleva al salvaje oeste a finales del siglo XIX, donde podrás vivir una aventura de forajidos, cazar, pescar, explorar y sobrevivir en un vasto mundo abierto.",
+                "url": "https://cdn.cdkeys.com/700x700/media/catalog/product/h/e/header_10_21_39_.jpg",
+                "stock" : 5
+            },
+            {
+                "id": 2,
+                "name": "Elden Ring",
+                "precio": 69.99,
+                "descripcion": "El nuevo juego de FromSoftware y Bandai Namco, que mezcla la jugabilidad de Dark Souls con un mundo abierto diseñado por George R.R. Martin, el autor de Canción de hielo y fuego, donde podrás enfrentarte a desafiantes enemigos y jefes en un entorno fantástico y oscuro.",
+                "url": "https://i.ytimg.com/vi/l1i0RkxxiLs/maxresdefault.jpg",
+                "stock" : 7
+            },
+            {
+                "id": 3,
+                "name": "Forza Horizon 4",
+                "precio": 59.99,
+                "descripcion": "La cuarta entrega de la saga de carreras en mundo abierto, que te permite conducir más de 450 coches por el Reino Unido, con un sistema de estaciones dinámico que cambia el clima y el terreno.",
+                "url": "https://store-images.s-microsoft.com/image/apps.10138.14343301090572358.2000000000007864208.debe5522-7996-4281-a4e5-e5d8713d27d9",
+                "stock" : 10
+            },
+            {
+                "id": 4,
+                "name": "SSDT",
+                "precio": 59.99,
+                "descripcion": "Sekiro: Shadows Die Twice es un juego de FromSoftware, que te traslada al Japón feudal del siglo XVI, donde encarnas a un shinobi que debe rescatar a su maestro secuestrado, usando armas, herramientas y habilidades ninja para superar a sus adversarios.",
+                "url": "https://locosxlosjuegos.com/wp-content/uploads/2019/03/portada-3.jpg",
+                "stock" : 2
+            }
+        ]
+    },
+    {
+        "id": "xbox-series-x-s",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Forza Horizon 5",
+                "precio": 59.99,
+                "descripcion": "La quinta entrega de la saga de carreras en mundo abierto, que te lleva a explorar y competir en el vibrante y diverso México, con un apartado gráfico impresionante y un clima realista.",
+                "url": "https://s3.abcstatics.com/media/tecnologia/2021/12/02/forza-9-kFVC--620x349@abc.jpg",
+                "stock" : 7
+            },
+            {
+                "id": 2,
+                "name": "Halo Infinite",
+                "precio": 59.99,
+                "descripcion": "La esperada continuación de la saga de disparos en primera persona, que retoma la historia del Jefe Maestro y su enfrentamiento contra una nueva amenaza, con una campaña emocionante y un multijugador renovado.",
+                "url": "https://i.ytimg.com/vi/8AVHOJlOWJg/maxresdefault.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 3,
+                "name": "Psychonauts 2",
+                "precio": 59.99,
+                "descripcion": "La secuela del aclamado juego de plataformas y humor, que te pone en la piel de Raz, un joven con poderes psíquicos que debe infiltrarse en las mentes de diferentes personajes para resolver sus problemas y descubrir sus secretos.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesBXwxcesIW3ErVkOETeZgnHQqGDQI4Uo0pjVBRPCOXHdTfadG8gyyBCAaD-6m_nRBRw&usqp=CAU",
+                "stock" : 6
+            },
+            {
+                "id": 4,
+                "name": "Resident Evil Village",
+                "precio": 59.99,
+                "descripcion": "La octava entrega de la saga de terror y supervivencia, que sigue la historia de Ethan Winters tras los eventos de Resident Evil 7, llevándolo a un misterioso pueblo europeo donde tendrá que enfrentarse a criaturas horripilantes y a la temible Lady Dimitrescu.",
+                "url": "https://img.youtube.com/vi/9-_d2Ja_3AA/maxresdefault.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 5,
+                "name": "It Takes Two",
+                "precio": 39.99,
+                "descripcion": "Un juego de aventuras y cooperación, que te invita a jugar con un amigo o pareja para controlar a Cody y May, una pareja al borde del divorcio que se convierten en muñecos por un hechizo, y que tendrán que superar diversos obstáculos y desafíos para recuperar su forma humana y su relación.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1MrhtL8EzbRIvmrMEHgR-mSDFenOG5r6g-r9edapIdjn4Dikj2AfbypbfBnEyfPmPVQ&usqp=CAU",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "nintendo",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Super Mario Bros 3",
+                "precio": 19.99,
+                "descripcion": "Una de las mejores aventuras de plataformas de todos los tiempos, en la que Mario debe salvar a la Princesa Peach de Bowser.",
+                "url": "https://www.giantbomb.com/a/uploads/square_medium/2/23093/2936487-super%20mario%20bros.%203%20%28u%29%20%28prg0%29%20%5B%21%5D-0.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "TLOZ",
+                "precio": 19.99,
+                "descripcion": "The Legend of Zelda es una aventura de rol épica en la que Link debe salvar a Hyrule de Ganondorf.",
+                "url": "https://fs-prod-cdn.nintendo-europe.com/media/images/06_screenshots/games_5/virtual_console_wii_u_3/wiiuvc_thelegendofzelda/WiiUVC_TheLegendOfZelda_04.png",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "Metroid",
+                "precio": 19.99,
+                "descripcion": "Una aventura de acción en la que Samus Aran debe explorar un planeta alienígena para detener a Mother Brain.",
+                "url": "https://fs-prod-cdn.nintendo-europe.com/media/images/06_screenshots/games_5/virtual_console_nintendo_3ds_4/3dsvirtualconsole_metroid_1/WiiUVC_Metroid_10.png",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "SNES",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Super Mario World",
+                "precio": 19.99,
+                "descripcion": "Una secuela de Super Mario Bros. 3 que lleva al fontanero a un nuevo mundo lleno de secretos y desafíos.",
+                "url": "https://cdn.thegamesdb.net/images/original/screenshots/136-4.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 2,
+                "name": "TLOZ: ALTTP",
+                "precio": 19.99,
+                "descripcion": "The Legend of Zelda: A Link to the Past es la precuela de The Legend of Zelda que se desarrolla en un mundo paralelo.",
+                "url": "https://www.nintenderos.com/wp-content/uploads/2019/11/slack-imgs.com_-21-e1574858560897.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 3,
+                "name": "Super Metroid",
+                "precio": 19.99,
+                "descripcion": "Una secuela de Metroid que amplía el mundo y la jugabilidad del original.",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGtKCrxmCZVHQGQRTT-Qd40BOIh5yC-xW4DDbRJvfWrWOpCepk_p4QpzGXh0OCLm7JqI4&usqp=CAU",
+                "stock" : 2
+            }
+        ]
+    },
+    {
+        "id": "nintendo-64",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Super Smash Bros",
+                "precio": 19.99,
+                "descripcion": "Super Smash Bros. Melee es un juego de lucha crossover que reúne a los personajes más icónicos de Nintendo.",
+                "url": "https://pm1.aminoapps.com/7003/e92e0c6f426a8075ef16024cf8b58b49069024c3r1-1059-1481v2_hq.jpg",
+                "stock" : 3
+            },
+            {
+                "id": 2,
+                "name": "The Wind Waker",
+                "precio": 19.99,
+                "descripcion": "The Legend of Zelda: The Wind Waker es una aventura de acción en un mundo abierto ambientado en un océano.",
+                "url": "https://1upvideogamerentals.com/cdn/shop/products/windwaker2.jpg?v=1667020887&width=1946",
+                "stock" : 2
+            },
+            {
+                "id": 3,
+                "name": "Metroid Prime",
+                "precio": 19.99,
+                "descripcion": "Metroid Prime es un juego de acción y aventura en primera persona que reinventó la serie Metroid.",
+                "url": "https://c8.alamy.com/compes/2cbkgm1/metroid-prime-nintendo-gamecube-videogame-solo-para-uso-editorial-2cbkgm1.jpg",
+                "stock" : 5
+            }
+        ]
+    },
+    {
+        "id": "nintendo-wii-u",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Super Mario Galaxy",
+                "precio": 19.99,
+                "descripcion": "Una aventura de plataformas en un mundo de planetas flotantes.",
+                "url": "https://img.delvenetworks.com/gdX9KjCLT1wmBYosX6fyt0/FzmhtMdxRaMreee_7ZBX3g/npa.540x302.jpeg",
+                "stock" : 4
+            },
+            {
+                "id": 2,
+                "name": "Twilight Princess",
+                "precio": 19.99,
+                "descripcion": "The Legend of Zelda: Twilight Princess es una aventura de acción en la que Link se transforma en lobo.",
+                "url": "https://m.media-amazon.com/images/I/51ZIu+n67tL._AC_UF1000,1000_QL80_.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 3,
+                "name": "Wii Sports",
+                "precio": 19.99,
+                "descripcion": "Una colección de juegos deportivos que utiliza el control por movimiento.",
+                "url": "https://image.cdn0.buscalibre.com/3549803.__RS360x360__.jpg",
+                "stock" : 3
+            }
+        ]
+    },
+    {
+        "id": "nintendo-switch",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "TLOZ: Breath of the Wild",
+                "precio": 69.99,
+                "descripcion": "The Legend of Zelda: Breath of the Wild es una aventura de acción de mundo abierto que redefinió el género.",
+                "url": "https://gocdkeys.it/images/captures/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-4.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 2,
+                "name": "Super Mario Odyssey",
+                "precio": 49.99,
+                "descripcion": "Una aventura de plataformas en la que Mario viaja por todo el mundo en busca de la princesa Peach.",
+                "url": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_bannerXS.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 3,
+                "name": "Animal Crossing: New Horizons",
+                "precio": 49.99,
+                "descripcion": "Un simulador de vida en el que los jugadores pueden crear su propia isla y vivir su propia vida.",
+                "url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
+                "stock" : 4
+            }
+        ]
+    },
+    {
+        "id": "nintendo-3ds",
+        "juegos": [
+            {
+                "id": 1,
+                "name": "Super Mario 3D Land",
+                "precio": 29.99,
+                "descripcion": "Un juego de plataformas 3D que es considerado uno de los mejores juegos de la serie.",
+                "url": "https://fs-prod-cdn.nintendo-europe.com/media/images/migration/games_7/screenshots/nintendo_3ds_15/3ds_supermario3dland/3DS_SuperMario3DLand_10.jpg",
+                "stock" : 2
+            },
+            {
+                "id": 2,
+                "name": "TLOZ: A Link Between Worlds",
+                "precio": 29.99,
+                "descripcion": "The Legend of Zelda: A Link Between Worlds es una aventura de acción en 2D que es un remake del clásico juego de Nintendo SNES.",
+                "url": "https://gzhls.at/i/50/26/935026-l8.jpg",
+                "stock" : 1
+            },
+            {
+                "id": 3,
+                "name": "Animal Crossing: New Leaf",
+                "precio": 29.99,
+                "descripcion": "Un simulador de vida en el que los jugadores pueden crear su propia isla y vivir su propia vida.",
+                "url": "https://fs-prod-cdn.nintendo-europe.com/media/images/migration/games_7/screenshots/nintendo_3ds_15/animalcrossing_engb/3DS_AnimalCr_1_scrn01_E3.jpg",
+                "stock" : 2
+            }
+        ]
+    }
+]
